@@ -1,0 +1,141 @@
+.item-modal {
+  width: 729px;
+  max-width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+
+  .modal-content {
+    min-height: 546px;
+    padding: 60px;
+    border: 0;
+    .modal-header {
+      padding: 0;
+      border: 0;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      .modal-title {
+        color: #1c0000;
+
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.86px;
+        line-height: 14px;
+      }
+    }
+    .modal-icons {
+      display: flex;
+      button {
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        img {
+          @media screen and (max-width: 767px) {
+            width: 15px;
+          }
+        }
+      }
+    }
+    .radio-list {
+      label {
+        color: #262027;
+        font-weight: normal;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 24px;
+        margin-bottom: 24px;
+        @media screen and (max-width: 767px) {
+          font-size: 14px;
+          line-height: 10px;
+        }
+      }
+    }
+    @media screen and (max-width: 767px) {
+      height: unset;
+      padding: 30px;
+    }
+  }
+
+  /* The container */
+  .radio-outer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .radio-outer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .radio-chk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    border: 1px solid #979797;
+    border-radius: 9px;
+    background-color: #f8f8f8;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .radio-outer:hover input ~ .radio-chk {
+    background-color: #f8f8f8;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .radio-outer input:checked ~ .radio-chk {
+    background-color: #27275a;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .radio-chk:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .radio-outer input:checked ~ .radio-chk:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  // .radio-outer .radio-chk:after {
+  //   left: 9px;
+  //   top: 5px;
+  //   width: 5px;
+  //   height: 10px;
+  //   border: solid white;
+  //   border-width: 0 3px 3px 0;
+  //   -webkit-transform: rotate(45deg);
+  //   -ms-transform: rotate(45deg);
+  //   transform: rotate(45deg);
+  // }
+}
+
+.google-doc-modal {
+  .modal-content {
+    min-height: unset;
+    input {
+      border-radius: 3px;
+      height: 52px;
+      &:focus {
+        border: 1px solid #288cff;
+      }
+    }
+  }
+}

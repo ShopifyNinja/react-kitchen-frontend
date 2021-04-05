@@ -1,0 +1,148 @@
+.Cabinet-withback {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+  .menu-title {
+    margin-bottom: 0 !important;
+  }
+  .back-btn {
+    margin-right: 44px;
+    padding: 0;
+    @media screen and (max-width: 1024px) and (orientation: portrait) {
+      // position: fixed;
+      // top: 69px;
+      // padding: 0;
+      margin-right: 20px;
+    }
+  }
+}
+
+.back-btn {
+  border: 0;
+  background-color: transparent;
+}
+.estimate-page {
+  margin-top: 70px;
+  .user-list .user-name {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    @media screen and (max-width: 1023px) and (orientation: portrait) {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+  }
+  .menu-title {
+    margin-bottom: 0px;
+    @media screen and (max-width: 1024px) and (orientation: portrait) {
+      margin-top: 0px;
+    }
+  }
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    margin-top: 20px;
+  }
+  .list-head {
+    text-transform: uppercase;
+    margin-top: 50px;
+  }
+  .right-shadow {
+    @media screen and (min-width: 991px) and (max-width: 1024px) {
+      box-shadow: 52px 0px 18px -32px #0000000d;
+      padding-right: 25px;
+    }
+  }
+}
+
+.view-doc-btn {
+  width: 361px;
+  border: 2px solid #8d1d1c;
+  border-radius: 40px;
+  max-width: 100%;
+  color: #8d1d1c;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  background-color: white;
+  height: 82px;
+  margin-top: 49px;
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    margin: 50px 0;
+  }
+}
+.estimate-cost {
+  .estimate-cost-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 19px;
+    h6 {
+      color: #262027;
+
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 20px;
+    }
+    label {
+      color: #1c0000;
+
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 24px;
+      text-align: right;
+    }
+  }
+  .discount-total {
+    border-top: 1px solid #f3f3f3;
+    padding-top: 15px;
+    h6 {
+      color: #262027;
+
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0;
+      line-height: 24px;
+    }
+  }
+}
+
+.product-add {
+  width: 354px;
+  max-width: 100%;
+}
+.Kitchen-list {
+  li {
+    background-image: url("../images/downArrow.svg") !important;
+    background-repeat: no-repeat;
+  }
+}
+.demolition-and-haul {
+  color: #99979b;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 50px;
+  width: 355px;
+  max-width: 100%;
+}
+.cost-head {
+  width: 360px;
+  max-width: 100%;
+}
+.users-page {
+  .item-info-page {
+    .sub-title {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.users-page {
+  .item-info-page {
+    .unit {
+      margin-bottom: 0;
+    }
+  }
+}

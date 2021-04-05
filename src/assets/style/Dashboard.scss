@@ -1,0 +1,215 @@
+.menu-title {
+  color: #262027;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 42px;
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    margin-top: 57px;
+  }
+}
+header {
+  .navbar {
+    padding: 0;
+    padding-top: 25px;
+  }
+}
+.sub-title {
+  color: #1c0000;
+  font-family: "Work Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.86px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.new-title {
+  color: #262027;
+  margin-top: 17px;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+  font-weight: normal;
+  @media screen and (max-width: 375px) {
+    font-size: 15px;
+  }
+}
+
+.menu-bx {
+  display: flex;
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    margin-bottom: 50px;
+  }
+  .new-box {
+    height: 146px;
+
+    width: 146px;
+    border: 2px solid #262027;
+    border-radius: 87.5px;
+    line-height: 146px;
+
+    text-align: center;
+    &:last-child {
+      margin: 0;
+    }
+    @media screen and (max-width: 375px) {
+      height: 120px;
+      line-height: 120px;
+      width: 120px;
+    }
+  }
+}
+.lists {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+  .lists-box {
+    height: 62px;
+    width: 62px;
+    border: 1px solid #1c0000;
+    border-radius: 8px;
+    line-height: 56px;
+    text-align: center;
+    margin-right: 30px;
+  }
+  .lists-text {
+    .list-title {
+      color: #262027;
+      font-family: "Work Sans";
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 24px;
+      font-weight: normal;
+      text-transform: capitalize;
+      margin: 0;
+    }
+    p {
+      color: #99979b;
+      font-size: 14px;
+      letter-spacing: 0;
+      line-height: 16px;
+      font-weight: normal;
+      margin: 0;
+    }
+  }
+}
+
+.list-head {
+  color: #1c0000;
+  font-family: "Work Sans";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.86px;
+  line-height: 14px;
+  margin-bottom: 29.5px;
+}
+.content-box-detail {
+  border-bottom: 1px solid #f3f3f3;
+  padding-top: 15px;
+  h5 {
+    color: #262027;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  p {
+    color: #99979b;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  &:last-child {
+    border: 0;
+    @media screen and (max-width: 1024px) and (orientation: portrait) {
+      border-bottom: 1px solid #f3f3f3;
+    }
+  }
+}
+
+.inner-sec {
+  box-shadow: 0px 25px 60px 0 #0000000d;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    box-shadow: unset;
+    padding-bottom: 0;
+  }
+}
+.sales-sec {
+  padding-top: 38px;
+  @media screen and (max-width: 1024px) {
+    padding-top: 50px;
+  }
+}
+.lets-get-estimating {
+  color: #262027;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+.navbar-toggler {
+  border: 0;
+}
+.new-bx-circle {
+  margin-right: 69px;
+  @media screen and (max-width: 375px) {
+    margin-right: 25px;
+  }
+}
+.sales-right {
+  padding-left: 36px;
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    padding-left: 15px;
+  }
+}
+.border-left {
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    border-left: 0 !important;
+  }
+}
+.sales-left {
+  padding-right: 30px;
+  max-width: 330px;
+  width: 100%;
+  padding-left: 24px!important;
+  @media screen and (max-width: 1024px) {
+    max-width: unset;
+  }
+}
+.container {
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    padding-right: 26px;
+    padding-left: 26px;
+  }
+}
+.navbar-toggler {
+  img {
+    @media screen and (max-width: 1024px) and (orientation: portrait) {
+      height: 25px;
+      width: 24px;
+    }
+  }
+}
+
+.navbar-brand {
+  img {
+    @media screen and (max-width: 1024px) and (orientation: portrait) {
+      height: 25px;
+      width: 24px;
+    }
+  }
+}
+
+.p-0,
+.pl-0 {
+  @media screen and (max-width: 1024px) and (orientation: portrait) {
+    padding: 0px 15px !important;
+  }
+}
